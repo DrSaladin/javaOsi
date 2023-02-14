@@ -1,7 +1,5 @@
 package client;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
@@ -30,6 +28,7 @@ public class Main {
           messageToSend = scanner.nextLine();
           isAgeSelected = true;
         } else {
+          System.out.println("Thank you for you answers");
           break;
         }
 
